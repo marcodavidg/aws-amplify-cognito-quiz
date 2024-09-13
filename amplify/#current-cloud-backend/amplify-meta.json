@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-quizamplifyapp-dev-3c065-authRole",
+      "UnauthRoleArn": "arn:aws:iam::992382640088:role/amplify-quizamplifyapp-dev-3c065-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::992382640088:role/amplify-quizamplifyapp-dev-3c065-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-quizamplifyapp-dev-3c065-deployment",
+      "UnauthRoleName": "amplify-quizamplifyapp-dev-3c065-unauthRole",
+      "StackName": "amplify-quizamplifyapp-dev-3c065",
+      "StackId": "arn:aws:cloudformation:us-east-1:992382640088:stack/amplify-quizamplifyapp-dev-3c065/451481b0-721b-11ef-853e-1227a9cbcb0d",
+      "AmplifyAppId": "didsk0pj7mu8z"
+    }
+  },
+  "auth": {
+    "quizamplifyappe77a3a7e": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-quizamplifyapp-dev-3c065-deployment/amplify-cfn-templates/auth/quizamplifyappe77a3a7e-cloudformation-template.json",
+        "logicalId": "authquizamplifyappe77a3a7e"
+      },
+      "lastPushTimeStamp": "2024-09-13T22:55:42.301Z",
+      "output": {
+        "UserPoolId": "us-east-1_XXV09BpPs",
+        "AppClientIDWeb": "11fc4t1rf283dvhv3uhqj45gm0",
+        "AppClientID": "3qahogb30ckdk48l0hl77tc49j",
+        "IdentityPoolId": "us-east-1:623dda25-d3f9-447c-8057-9a8c289e4360",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:992382640088:userpool/us-east-1_XXV09BpPs",
+        "IdentityPoolName": "quizamplifyappe77a3a7e_identitypool_e77a3a7e__dev",
+        "UserPoolName": "quizamplifyappe77a3a7e_userpool_e77a3a7e"
+      },
+      "lastPushDirHash": "IFrqgEKEN8Db7BHCvURJJKqbRGs="
+    }
+  }
+}
